@@ -1,0 +1,229 @@
+*{
+  margin:0px;
+  padding:0px;
+  z-index: 5;
+}
+html{
+  font-family: Raleway;
+  color:white;
+  background-color: black;
+}
+/*==========================================================================*/
+/*=======================PRESENTATION=======================================*/
+/*==========================================================================*/
+.hide{
+  display:none;
+}
+.opacity90{
+  opacity:.9;
+}
+.blackBack{
+  background-color: black;
+  opacity:0;
+  transition: "opacity 2s";
+  display: none;
+}
+.white{
+  background-color: white;
+}
+.textWhite{
+  color:white;
+}
+.makeVis{
+  opacity: 0;
+}
+/*==========================================================================*/
+/*=======================POSITIONINGS=======================================*/
+/*==========================================================================*/
+.filled{
+  width:100vw;
+  height:100vh;
+}
+.filledPart{
+  width:40%;
+  height:100vh;
+}
+.rotate90{
+  transform: rotate(90deg);
+}
+.rotate270{
+  transform: rotate(270deg);
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.left{
+  left:.01%;
+}
+.right{
+  right:.01%;
+}
+.bot{
+  bottom:3%;
+}
+.leftPlus{
+  left:-60px;
+}
+.vertCenter{
+  top: 50%;
+}
+.width100{
+  width:100%;
+}
+.in10Perc{
+  right:10%;
+  left:10%;
+}
+.top50Perc{
+  top:50%;
+}
+.top20Perc{
+  top:20%;
+}
+.top2Perc{
+  top:2%;
+}
+.textCenter{
+  text-align: center;
+}
+.inline{
+  display: inline-block;
+}
+.paddingTop10{
+  padding-top: 10%;
+}
+.paddingTop5{
+  padding-top: 5%;
+}
+.paddingTop40{
+  padding-top: 40%;
+}
+.paddingTop25{
+  padding-top: 25%;
+}
+.paddingBot10{
+  padding-bottom: 10%;
+}
+.paddingBot5{
+  padding-bottom: 5%;
+}
+.paddingIn5{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/*==========================================================================*/
+/*=======================FONTS==============================================*/
+/*==========================================================================*/
+h1{
+  font-size: 36pt;
+}
+h2{
+  font-size: 26pt;
+  color:rgb(157,157,157);
+}
+h3{
+  font-size: 12pt;
+  color:rgb(157,157,157);
+  font-weight: 400;
+
+}
+h4{
+  font-weight: 400;
+  color:rgb(29,29,29);
+}
+h5{
+  font-size: 26pt;
+  color:white;
+  font-weight: 600;
+}
+p{
+  font-size: 12pt;
+  font-weight: 400;
+  color:rgb(100,100,100);
+}
+/*==========================================================================*/
+/*=======================Spec. Styling======================================*/
+/*==========================================================================*/
+a:link, a:visited {
+    color:rgb(157,157,157);
+    text-decoration: none;
+    cursor: auto;
+}
+a:link:active, a:visited:active {
+    color: rgb(157,157,157);
+}
+.hoverWhite:hover{
+  color:white;
+}
+.persp{
+  perspective: 3000px;
+  transition: scale 5s;
+}
+.z0{
+  z-index: 0;
+}
+.z1{
+  z-index: 1;
+}
+.z6{
+  z-index: 6;
+}
+select:active, select:hover {
+  outline: none
+}
+::selection {
+  background: none; /* WebKit/Blink Browsers */
+}
+.scaleHalf{
+  transform: scale(0.5);
+  transition: scale 5s;
+}
+.aboutText{
+  transform: scale(2);
+  opacity:0;
+  display: none;
+}
+.projectsText{
+  transform: scale(2);
+  opacity:0;
+  display: none;
+}
+.designText{
+  transform: scale(2);
+  opacity:0;
+  display: none;
+}
+.mobile{
+  display:none;
+}
+/*==========================================================================*/
+/*=======================Mobile=============================================*/
+/*==========================================================================*/
+@media screen and (max-width: 480px) {
+  .mobile{
+    display: block;
+  }
+  .desk{
+    display:none;
+  }
+  h1{
+    font-size: 30pt;
+  }
+  h2{
+    font-size: 18pt;
+  }
+  h3{
+    font-size: 12pt;
+  }
+
+
+
+
+
+
+
+
+}

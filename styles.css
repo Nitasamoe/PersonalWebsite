@@ -230,7 +230,7 @@ select:active, select:hover {
       display:none;
     }
     h1{
-      font-size: 30pt;
+      font-size: 40pt;
     }
     h2{
       font-size: 18pt;
@@ -251,12 +251,15 @@ select:active, select:hover {
       display:none;
     }
     h1{
-      font-size: 30pt;
+      font-size: 72pt;
     }
     h2{
-      font-size: 18pt;
+      font-size: 50pt;
     }
     h3{
-      font-size: 12pt;
+      font-size: 36pt;
+    }
+    p{
+      font-size: 29pt;
     }
 }
